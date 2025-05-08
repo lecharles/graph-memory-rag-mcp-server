@@ -1,0 +1,24 @@
+{
+  "name": "graph-memory-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Graph-based memory storage server using MCP",
+  "main": "app.js",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.3",
+    "zod": "^3.22.4"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "node app.js --test"
+  },
+  "keywords": [
+    "mcp",
+    "graph",
+    "memory",
+    "rag",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT"
+}
